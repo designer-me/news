@@ -3,6 +3,7 @@ html{
 }
 body{
 font-family: 'Share Tech', sans-serif;
+	overflow-x:hidden;
    }
 a:hover{
      text-decoration:none;
