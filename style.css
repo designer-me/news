@@ -321,14 +321,17 @@ p{
     font-size: 26px;
 }
  .widget-title, h2.widget-title {
-    border-bottom: 2px solid #f37521 !important;
+    border-bottom: 2px solid maroon !important;
      border-top-right-radius:  solid transparent;
 
      
 }
 .widget-title h2, h2.widget-title span{
-    background-color: #f37521;
-         padding: px;
+    background-color: maroon;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+         padding: 3px;
 
      
 /*          border-top: 5px solid #f37521 !important;*/
@@ -477,7 +480,7 @@ border-radius:0;
     COLOR: WHITE !IMPORTANT;
 font-weight:600;
 }
-<<<<<<< HEAD
+
 .packet_check{
     
 }
@@ -512,5 +515,28 @@ font-weight:600;
 .packet li a:hover{
     color: maroon;
 }
-=======
->>>>>>> c249f66655b5406735ef354d4c894bc9e4d326c5
+.trending_video{
+     padding: 10px;
+    width: 100%;
+}
+.trending_video p{
+    color: maroon;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.trending_video p a{
+    text-decoration: none;
+    color: #222222;
+}
+.trending_video p a:hover{
+    color: maroon;
+}
+.video_card{
+   width: 100%;
+        background: #f1f1f1;
+}
+.video_card:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
