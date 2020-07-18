@@ -51,8 +51,8 @@ nav ul{
 }
 .navbar-nav li{
 	list-style: none;
-	display: inline-block;
-	padding: 10px 20px;
+	display: block;
+	padding: 10px 5px;
 }
 .navbar-nav li a{
 	color: #fff;
@@ -230,6 +230,7 @@ p{
 .social-icons-footer i{
 	font-size: 37px;
 	padding: 5px;
+  
 }
 .instagram img{
 	padding: 5px;
@@ -432,23 +433,35 @@ box-shadow:2px 2px 0px 0px #ccc;
       -webkit-box-shadow: 0 0 10px #ccc;
       box-shadow: 0 0 10px #ccc;
 }
-footer h2{
-/*    color: #fff;*/
+footer{
+    background: #333;
+}
+footer h3{
+    color: #fff;
+    font-size: 26px;
 }
 footer p{
-/*    color: #fff;*/
+    color: #fff;
 }
 footer .social-icons-footer{
-/*    color: #fff;*/
+    color: #fff;
+      border-radius: 50px;
 }
 .usefull_links ul{
-    display: flex;
+/*    display: flex;*/
 /*    margin: 10px;*/
     list-style: none;
     
 }
 .usefull_links ul li{
     padding: 10px;
+    float: left;
+}
+.usefull_links ul li a{
+    color: #fff;
+}
+.usefull_links ul li a:hover{
+    color: maroon;
 }
 .newsletter {
 padding: 80px 0;
