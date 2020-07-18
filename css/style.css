@@ -2382,3 +2382,39 @@ border-radius:0;
     COLOR: WHITE !IMPORTANT;
 font-weight:600;
 }
+.packet_check{
+    
+}
+.packet{
+    list-style: none;
+    border:1px solid #f1f1f1;
+        -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
+.packet li a::before { /* add the new bullet point */
+/*  display: inline-block;*/
+    content: '.';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.5rem;
+    background-color: #000000;
+}
+.packet li a.alternative::before { /* and another color */
+  background-color: #66c;
+}
+.packet li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #222222;
+    border-bottom: 1px solid grey;
+    margin-top: 5px;
+    
+}
+.packet li a:hover{
+    color: maroon;
+}
+
+
