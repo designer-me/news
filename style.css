@@ -7,7 +7,11 @@ body{
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+<<<<<<< HEAD
   overflow-x: hidden !important;
+=======
+   overflow-x: hidden !important;
+>>>>>>> c249f66655b5406735ef354d4c894bc9e4d326c5
   background-color: #ffffff;
 }
 
@@ -473,6 +477,7 @@ border-radius:0;
     COLOR: WHITE !IMPORTANT;
 font-weight:600;
 }
+<<<<<<< HEAD
 .packet_check{
     
 }
@@ -507,3 +512,5 @@ font-weight:600;
 .packet li a:hover{
     color: maroon;
 }
+=======
+>>>>>>> c249f66655b5406735ef354d4c894bc9e4d326c5

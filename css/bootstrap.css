@@ -60,7 +60,11 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+  overflow-x:hidden;
+>>>>>>> c249f66655b5406735ef354d4c894bc9e4d326c5
   background-color: #fff;
 }
 
