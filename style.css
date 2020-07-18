@@ -455,7 +455,7 @@ footer .social-icons-footer{
 }
 .usefull_links ul li{
     padding: 10px;
-    float: left;
+/*     float: left; */
 }
 .usefull_links ul li a{
     color: #fff;
