@@ -911,3 +911,103 @@ text-decoration: underline;
     font-weight: bold;
 /*    float: left;*/
 }
+.sports{
+     padding: 10px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+     box-shadow: 0 2px 0px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.12);
+}
+.sports_1{
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.sports_2{
+     padding: 10px; 
+}
+.video_3{
+         padding: 10px;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+.video_3 a{
+
+    color: white;
+}
+.poll{
+/*    background: #f1f1f1;*/
+/*    padding: 10px;*/
+}
+.education{
+         padding: 10px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+     box-shadow: 0 2px 0px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.12);
+}
+.education p{
+    padding: 10px;
+}
+.duniya{
+             padding: 10px;
+    width: 100%;
+background: grey;
+}
+.duniya a{
+    color: black;
+    font-weight: bold;
+}
+.duniya h2{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+.duniya .para{
+    background:#fff;
+    padding: 10px;
+}
+.duniya img , .duniya .para{
+ 
+}
+.adds{
+           padding: 10px;
+    width: 100%;
+}
+.last_section{
+       padding: 10px;
+    width: 100%;
+}
+.last_section .auto p{
+    padding: 10px;
+}
+.last_section .auto_list ul{
+    list-style: circle;
+}
+.last_section .auto_list ul li{
+    margin: 10px;
+}
+.auto_section{
+      border: 1px solid #f1f1f1;
+     box-shadow: 0 2px 0px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.12);
+    padding: 10px;
+}
+.back-to-top {
+ 
+
+
+
+/* background-image: url('../images/top2.jpg');*/
+}
+.back-to-top img{
+     bottom: 30px;
+ right: 30px;
+     width: 60px;
+ height: 60px;
+    position: fixed;
+     z-index: 9999;
+ cursor: pointer;
+ text-decoration: none;
+ transition: opacity 0.2s ease-out;
+}
+.back-to-top:hover{
+ opacity: 0.7;
+}
