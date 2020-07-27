@@ -28,6 +28,17 @@ p{
 img{
     border-radius: 10px;
 }
+video{
+
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+video:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
 .website-header{
 	padding: 20px;
 	height: 100px;
