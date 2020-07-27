@@ -1043,33 +1043,6 @@ background: grey;
 .closebtn:hover {
   color: black;
 }
-#btext1{
-/*        width: 200px;*/
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #e08b6c;
-    background: black;
-    padding: 10px;
-    text-align: center;
-    font-weight: 600;
-    margin: auto 0;
-}
-.breaking-news{
-	padding: 30px;
-	color: maroon;
-	text-decoration: none;	
-	font-weight: 800;
-}
-
-.breaking-news-section1{
-	padding: 0 30px 0 60px;
-	display: flex;
-    
-/*    width: 100%;*/
-}
-.breaking_news_para{
-  margin-left: 30px;
-}
 .float{
     position:fixed;
     width:60px;
@@ -1085,7 +1058,10 @@ background: grey;
   z-index:100;
 /*    float: left;*/
 }
-
+.changingword{
+    margin-left: 10px;
+    padding: 10px;
+}
 .my-float{
     margin-top:16px;
 }
