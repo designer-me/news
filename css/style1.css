@@ -39,6 +39,12 @@ video:hover {
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
 }
+.btn-danger{
+    border-radius: 10px;
+}
+.btn-danger:hover{
+    background: red;
+}
 .website-header{
 	padding: 20px;
 	height: 100px;
