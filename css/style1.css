@@ -22,6 +22,12 @@ body{
 font-family: 'Share Tech', sans-serif;
 	overflow-x:hidden;
    }
+p{
+    padding: 10px;
+}
+img{
+    border-radius: 10px;
+}
 .website-header{
 	padding: 20px;
 	height: 100px;
