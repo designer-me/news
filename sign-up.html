@@ -21,7 +21,7 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+           <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav main_nav">
           <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
           <li><a href="mp.html">ताज़ातरीन</a></li>
@@ -54,8 +54,8 @@
             <a href="mp.html">बिजनेस</a></li>
              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <i class="fas fa-angle-down"></i></a>
                <ul class="dropdown-menu" role="menu">
-                 <li><a href="mp.html">Login</a></li> 
-            <li><a href="u.p.html">Sign-up</a></li> 
+                 <li><a href="login.html">Login</a></li> 
+            <li><a href="sign-up.html">Sign-up</a></li> 
             </ul>
             </li>
             
@@ -86,21 +86,15 @@
          
   </section>
             
-            <div class="container ">
-                <div class="row">
-                <div class="col-md-12">
-                    <div class="breaking-news-section1">
-                                   <div class="alert ">
-  <span class="closebtn">&times;</span>  
-  <p><strong><span id="btext1">Breaking News</span></strong><span class="breaking_news_para"> राजस्थान HC में BSP की याचिका पर सुनवाई शुरू, जस्टिस महेंद्र गोयल कर रहे हैं सुनवाई</span> </p>
-                </div>
-                    
-                    </div>
-     
-                    </div>
-                </div>
-</div>
-            <script>
+
+		</header>
+		     <div class="container ">
+        <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <p><span style="background:black;color:white;padding:10px; margin-top: 20px;">Breaking News</span> <span id="changingword" > अमेरिका ने चीन के चेंगदू में स्थित कांसुलेट को बंद किया</span></p>
+             </div></div>
+        <script>
+        
             (function(){
       var words = [
           'CM अशोक गहलोत का बड़ा बयान, राज्यपाल के बर्ताव पर पीएम नरेंद्र मोदी से बात की',
@@ -112,14 +106,14 @@
           'अमेरिका ने चीन के चेंगदू में स्थित कांसुलेट को बंद किया'
           ], i = 0;
       setInterval(function(){
-          $('.breaking_news_para').fadeOut(function(){
+          $('#changingword').fadeOut(function(){
               $(this).html(words[i=(i+1)%words.length]).fadeIn();
           });
       }, 3000);
         
   })();
-            </script>
-		</header>
+          
+        </script>
 		<main>
             <section class="form">
             <div class="container">
@@ -161,7 +155,7 @@
             </section>
          
 		</main>
-		<footer>
+			<footer>
 			<div class="social-links">
 				<section class="about">
                  
@@ -275,8 +269,21 @@
                 	<div class="copyright">Copyright © 2020 BKD Times. Designed by <a href="#">skyevo.in</a></div>
             </div>
 			<a href="#" class="back-to-top"><img src="images/top.png"></a>
-			
-		<div class="policy text-center">This website uses cookie or similar technologies to enhance and improve your browsing experience. By using our site, you agree to our Privacy Policy and Cookie Policy. </div>
+			  <div class="row">
+    <div class="col-md-4">
+        <a href="https://api.whatsapp.com/send?phone=+8959402379&text=Hello." class="float" target="_blank">
+<i class="fab fa-whatsapp my-float"></i>
+<!--            <i class="fab fa-whatsapp"></i>-->
+</a>
+        
+    </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
+			<div class="policy text-center">      
+ 
+  <p>This website uses cookie or similar technologies to enhance and improve your browsing experience. By using our site, you agree to our Privacy Policy and Cookie Policy. <span class="closebtn btn btn-sucess"onclick="this.parentElement.style.display='none';">ok</span></p>
+             </div>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -318,16 +325,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 </script>
-            <div class="row">
-    <div class="col-md-4">
-        <a href="https://api.whatsapp.com/send?phone=+8959402379&text=Hello." class="float" target="_blank">
-<i class="fab fa-whatsapp my-float"></i>
-<!--            <i class="fab fa-whatsapp"></i>-->
-</a>
-        
-    </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-    </div>
+          
 	</body>
 </html>
+
