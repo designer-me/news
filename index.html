@@ -21,11 +21,11 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+           <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav main_nav">
           <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
           <li><a href="mp.html">ताज़ातरीन</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">वीडियो </a>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">वीडियो <i class="fas fa-angle-down"></i></a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#">देश की बहस</a></li>
               <li><a href="#">खबर Cut to Cut</a></li>
@@ -38,15 +38,29 @@
           <li><a href="boards.html">बोर्ड परिणाम</a></li>
           <li><a href="desh.html">देश</a></li>
           <li><a href="duniya.html">दुनिया</a></li>
-            <li><a href="mp.html">मध्य प्रदेश</a></li> 
-            <li><a href="u.p.html">बिहार</a></li> 
+       
             <li><a href="mp.html">मनोरंजन</a></li>
             <li><a href="mp.html">खेल</a></li>
             <li><a href="mp.html">शिक्षा</a></li>
             
             <li><a href="photo.html">फोटोा</a></li>
-            <li><a href="mp.html">राज्य</a></li><li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">राज्य <i class="fas fa-angle-down"></i> </a>
+               <ul class="dropdown-menu" role="menu">
+                 <li><a href="mp.html">मध्य प्रदेश</a></li> 
+            <li><a href="u.p.html">बिहार</a></li> 
+            </ul>
+            </li>
+            <li>
             <a href="mp.html">बिजनेस</a></li>
+             <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <i class="fas fa-angle-down"></i></a>
+               <ul class="dropdown-menu" role="menu">
+                 <li><a href="mp.html">Login</a></li> 
+            <li><a href="u.p.html">Sign-up</a></li> 
+            </ul>
+            </li>
+            
+<!--            <li>-->
+<!--            <a href="mp.html">My Account</a></li>-->
             <li>
             <input type="search" value="search" style="padding: 10px;"><button class="btn btn-danger" style="padding: 11px;">Search</button>
             </li>
@@ -72,17 +86,39 @@
          
   </section>
             
-	
-			<div class="breaking-news-section">
-				<span id="btext">Breaking News</span>
-				<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
-					<a href="newspage.html" class="breaking-news">
-						<p class="bntime">11 Jan 2019</p>
-						 पूरे भोपाल में लगाया गया 10 दिन के लिए लॉकडाउन' 25 जुलाई की सुबह शनिवार से 10 दिन के लिए लगा लॉकडाउन प्रदेश के गृह मंत्री नरोत्तम मिश्रा ने प्रेस वार्ता  कर दी जानकारी।</a>
-					<a href="newspage.html" class="breaking-news" scrolldelay="200"><p class="bntime">11 Jan 2020</p> पूरे भोपाल में लगाया गया 10 दिन के लिए लॉकडाउन' 25 जुलाई की सुबह शनिवार से 10 दिन के लिए लगा लॉकडाउन प्रदेश के गृह मंत्री नरोत्तम मिश्रा ने प्रेस वार्ता  कर दी जानकारी।</a>
-					<a href="newspage.html" class="breaking-news" scrolldelay="200"><p class="bntime">11 Jan 2020</p>राजस्थान में शह और मात का खेल, पायलट समेत 19 विधायकों ने दी स्पीकर के नोटिस को HC में चुनौती way</a>
-				</marquee>
-			</div>
+	     <div class="container ">
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="breaking-news-section1">
+                                   <div class="alert ">
+  <span class="closebtn">&times;</span>  
+  <p><strong><span id="btext1">Breaking News</span></strong><span class="breaking_news_para"> राजस्थान HC में BSP की याचिका पर सुनवाई शुरू, जस्टिस महेंद्र गोयल कर रहे हैं सुनवाई</span> </p>
+                </div>
+                    
+                    </div>
+     
+                    </div>
+                </div>
+</div>
+            <script>
+            (function(){
+      var words = [
+          'CM अशोक गहलोत का बड़ा बयान, राज्यपाल के बर्ताव पर पीएम नरेंद्र मोदी से बात की',
+          'राजस्थान विधानसभा में धरने पर बैठे बीजेपी विधायक मदन दिलावर',
+          'दिल्ली: सदर बाजार इलाके में आग लगी, दमकल की 11 गाड़ियां मौके पर',
+          'बिहार: मोतिहारी में भारी बारिश की वजह से सोमवती नदी पर बना पुल बहा',
+          'चीन के 47 और ऐप भारत में प्रतिबंधित, केंद्र सरकार ने दिया आदेश ',
+          'राजस्थान: स्पीकर सीपी जोशी सुप्रीम कोर्ट से वापस ले सकते हैं याचिका-सूत्र',
+          'अमेरिका ने चीन के चेंगदू में स्थित कांसुलेट को बंद किया'
+          ], i = 0;
+      setInterval(function(){
+          $('.breaking_news_para').fadeOut(function(){
+              $(this).html(words[i=(i+1)%words.length]).fadeIn();
+          });
+      }, 3000);
+        
+  })();
+            </script>
 		</header>
 		<main>
             <section class="headlline">
@@ -1423,7 +1459,7 @@
                 </div></div>
             </section>
 		</main>
-		<footer>
+			<footer>
 			<div class="social-links">
 				<section class="about">
                  
@@ -1543,6 +1579,7 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='js/jquery.min.js'></script>
         <script>
         $(document).ready(function(){
  
@@ -1567,5 +1604,29 @@
 });
 
         </script>
+        <script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
+            <div class="row">
+    <div class="col-md-4">
+        <a href="https://api.whatsapp.com/send?phone=+8959402379&text=Hello." class="float" target="_blank">
+<i class="fab fa-whatsapp my-float"></i>
+<!--            <i class="fab fa-whatsapp"></i>-->
+</a>
+        
+    </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
 	</body>
 </html>
+
